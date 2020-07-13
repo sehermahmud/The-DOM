@@ -1,0 +1,19 @@
+{
+  "name": "the-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehermahmud/The-DOM.git"
+  },
+  "author": "Seher Mahmud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sehermahmud/The-DOM/issues"
+  },
+  "homepage": "https://github.com/sehermahmud/The-DOM#readme"
+}

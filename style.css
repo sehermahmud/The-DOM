@@ -1,0 +1,56 @@
+.body {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title {
+    color: blue;
+    font-family: 'Merienda One', cursive;
+}
+
+.dom {
+    text-align: center;
+    color: palevioletred;
+    font-family: 'Merienda One', cursive;
+}
+
+.javascript {
+    text-align: center;
+    color: paleturquoise;
+    font-family: 'Merienda One', cursive;
+}
+
+#main-title {
+    text-align: center;
+    color: paleturquoise;
+    font-family: 'Merienda One', cursive;
+}
+
+.red-bg {
+    background-color: white;
+    color: white;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.Names {
+    font-family: 'Merienda One', cursive;
+    padding-left: 30px;
+    color: hotpink;
+}
+
+.list-item {
+    color: aqua;
+    padding-left: 1rem;
+}
+
+.text {
+    font-family: 'Merienda One', cursive;
+}

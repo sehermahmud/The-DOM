@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM Interaction</title>
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body">
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand text-danger title" href="https://github.com/sehermahmud/The-DOM">Source code: Github</a>
+    </nav>
+
+    <br />
+    <br />
+
+    <h1 class="dom">Working with the DOM (Browser HTML Code) in JavaScript</h1>
+
+    <br />
+
+    <h2 class="javascript">Behind the Scenes of javascript!, part2</h2>
+
+    <br />
+    <hr />
+    
+    <header><h1 id="main-title">Dive into the DOM!</h1></header>
+
+    <br />
+
+    <h4 class="Names">Names of the language which made this website</h4>
+    <br />
+    <section class="red-bg visible">
+      <ul>
+        <li class="list-item">HTML</li>
+        <li class="list-item">CSS</li>
+        <li class="list-item">JavaScript</li>
+      </ul>
+    </section>
+    <br />
+    <button type="button" class="btn btn-outline-danger">Toggle Visibility</button>
+    
+    <br />
+    <br />
+    <br />
+
+    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+      <div class="card-header text">Write something</div>
+      <div class="card-body">
+        <form id="form">
+          <div class="form-group">
+            <label class="text">write anything as you like</label>
+            <input type="value" 
+              class="form-control text" 
+              id="click-message-input" 
+              aria-describedby="emailHelp" 
+              placeholder="write"
+            >
+          </div>
+        </form>
+
+        <button type="button" class="btn btn-info" id="clickable-btn">Enter</button>
+
+        <br />
+        <br />
+        
+        <h1 id="user"></h1>
+      </div>
+    </div>
+  </body>
+</html>
