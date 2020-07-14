@@ -54,3 +54,29 @@
 .text {
     font-family: 'Merienda One', cursive;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+  }
+  
+main {
+    margin-bottom: 5rem;
+}
+  
+.github {
+    color: hotpink;
+    text-decoration: none;
+    font-family: 'Merienda One', cursive;
+}
+  
+.github:hover,
+.github:active {
+    color: red;
+    text-decoration: none;
+}
